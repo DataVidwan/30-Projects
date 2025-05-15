@@ -1,0 +1,161 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "how are ya",
+        "heyy",
+        "whatsup",
+        "??? ??? ??"
+      ],
+      "responses": [
+        "Hi there, how can I help?",
+        "Hello!",
+        "Good to see you again!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "College students"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses are offered",
+        "courses",
+        "available courses",
+        "list of courses",
+        "courses in college",
+        "courses"
+      ],
+      "responses": [
+        "The college offers BSc IT, BSc CS, BCom, BAF, BBI, BMS, BAMMC, and MCom."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "how to take admission",
+        "admission process",
+        "procedure for admission",
+        "how to apply",
+        "admission steps",
+        "admission"
+      ],
+      "responses": [
+        "You can apply through the college website during the admission period. Submit the required documents and pay the fees to confirm admission."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "library facilities",
+        "is there a library",
+        "books available",
+        "library",
+        "can we study in library",
+        "library timings"
+      ],
+      "responses": [
+        "Yes, the college has a library with a wide range of books and study materials. It is open from 9 AM to 5 PM on weekdays."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college location",
+        "location",
+        "address of the college",
+        "location",
+        "college address"
+      ],
+      "responses": [
+        "The college is located in Mumbai, Maharashtra."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "what is the fee structure",
+        "fees for BSc IT",
+        "how much is the fees",
+        "fees",
+        "tuition fees"
+      ],
+      "responses": [
+        "The fee structure varies by course. For example, BSc IT fees are approximately INR 30,000 per year."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "what are the college timings",
+        "when does college start",
+        "college schedule",
+        "class timings",
+        "lecture timings",
+        "timings"
+      ],
+      "responses": [
+        "College timings are usually from 7 AM to 2 PM for morning batches and 12 PM to 5 PM for afternoon batches."
+      ],
+      "context_set": ""
+    }
+  ]
+}
